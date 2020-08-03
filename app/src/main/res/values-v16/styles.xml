@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.NoActionBar">
+            <item name="colorPrimary">@color/colorPrimary</item>
+            <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+            <item name="colorAccent">@color/colorAccent</item>
+            <item name="windowActionBar">false</item>
+            <item name="windowNoTitle">true</item>
+            <item name="android:textViewStyle">@style/TextViewStyle</item>
+            <item name="android:buttonStyle">@style/ButtonStyle</item>
+            <item name="android:listViewStyle">@style/ListViewStyle</item>
+            <item name="android:actionOverflowButtonStyle">@style/OverFlow</item>
+        </style>
+
+    <!-- Style for basic TextViews (empty favorite list for example) -->
+        <style name="TextViewStyle" parent="android:Widget.TextView">
+                <item name="android:fontFamily">sans-serif-light</item>
+            <item name="android:textColor">@color/black</item>
+        </style>
+
+    <!-- Style for the Buttons -->
+        <style name="ButtonStyle" parent="android:Widget.Button">
+                <item name="android:fontFamily">sans-serif-light</item>
+            <item name="android:textColor">@color/black</item>
+        </style>
+
+    <!-- Style for the ListViews -->
+    <style name="ListViewStyle" parent="android:Widget.ListView">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">0.5</item>
+        <item name="android:layout_gravity">bottom</item>
+    </style>
+
+    <!-- Style for the top texts of the list items-->
+    <style name="ListViewTopTextStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <!-- <item name="android:textSize">18dp</item> -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:paddingLeft">?android:attr/listPreferredItemPaddingLeft</item>
+    </style>
+
+    <!-- Style for the detail texts of the list items-->
+    <style name="ListViewDetailTextStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:paddingLeft">?android:attr/listPreferredItemPaddingLeft</item>
+    </style>
+
+    <!-- Style for the distance added to the list items-->
+    <style name="ListViewDistanceTextStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <!-- <item name="android:textSize">18dp</item> -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <!-- Style for the headers of the expandable lists -->
+    <style name="ListViewHeaderStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <!-- <item name="android:textSize">18dp</item> -->
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">?android:attr/expandableListPreferredItemPaddingLeft</item>
+    </style>
+
+    <!-- Style of the Animation to show and hide the filter-popup-window -->
+    <style name="filterPopupAnimation">
+        <item name="android:windowEnterAnimation">@anim/popup_show</item>
+        <item name="android:windowExitAnimation">@anim/popup_hide</item>
+    </style>
+
+    <!-- Info-Icon of the BonusCard-Activity -->
+    <style name="OverFlow" parent="@android:style/Widget.Holo.ActionButton.Overflow">
+        <item name="android:src">@drawable/info</item>
+    </style>
+</resources>

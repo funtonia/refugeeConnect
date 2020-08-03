@@ -1,0 +1,73 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.schlauefuechse.refugeeconnect.Controller.MainFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        >
+
+        <Button
+            android:background="@drawable/button_shape"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="@string/freetime"
+            android:id="@+id/freeTimeBtn"
+            android:drawableLeft="@drawable/free_time_btn"
+            android:paddingLeft="20dp"
+            android:paddingRight="40dp"
+            android:drawableStart="@drawable/free_time_btn"
+            android:paddingStart="20dp"
+            android:paddingEnd="40dp"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_weight="0.32"
+            android:fontFamily="sans-serif-thin"
+            android:textSize="26dp"
+            />
+
+        <Button
+            android:background="@drawable/button_shape"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="100dp"
+            android:text="@string/doctors"
+            android:drawableLeft="@drawable/doctor_btn"
+            android:paddingLeft="20dp"
+            android:paddingRight="40dp"
+            android:drawableStart="@drawable/doctor_btn"
+            android:paddingStart="20dp"
+            android:paddingEnd="40dp"
+            android:id="@+id/medicalScientistBtn"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_weight="0.32"
+            android:fontFamily="sans-serif-thin"
+            android:textSize="26dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="200dp"
+            android:text="@string/contacts"
+            android:id="@+id/contactBtn"
+            android:background="@drawable/button_shape"
+            android:drawableLeft="@drawable/contact_btn"
+            android:paddingLeft="20dp"
+            android:paddingRight="40dp"
+            android:drawableStart="@drawable/contact_btn"
+            android:paddingStart="20dp"
+            android:paddingEnd="40dp"
+            android:layout_margin="5dp"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_weight="0.32"
+            android:fontFamily="sans-serif-thin"
+            android:textSize="26dp"/>
+
+    </LinearLayout>
+
+</FrameLayout>

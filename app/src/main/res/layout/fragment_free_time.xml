@@ -1,0 +1,52 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.schlauefuechse.refugeeconnect.Controller.FreeTimeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="@string/bonusfamilycard"
+            android:id="@+id/bonusCardBtn"
+            android:background="@drawable/button_shape"
+            android:drawableLeft="@drawable/bonuscard_btn"
+            android:drawableStart="@drawable/bonuscard_btn"
+            android:paddingLeft="20dp"
+            android:paddingRight="40dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="40dp"
+            android:layout_margin="5dp"
+            android:layout_weight="0.32"
+            style="?android:attr/borderlessButtonStyle"
+            android:fontFamily="sans-serif-thin"
+            android:textSize="26dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="100dp"
+            android:text="@string/course"
+            android:id="@+id/courseBtn"
+            android:background="@drawable/button_shape"
+            android:drawableLeft="@drawable/sport_courses_btn"
+            android:paddingLeft="20dp"
+            android:paddingRight="40dp"
+            android:drawableStart="@drawable/sport_courses_btn"
+            android:paddingStart="20dp"
+            android:paddingEnd="40dp"
+            android:layout_weight="0.32"
+            android:layout_margin="5dp"
+            style="?android:attr/borderlessButtonStyle"
+            android:fontFamily="sans-serif-thin"
+            android:textSize="26dp"/>
+
+    </LinearLayout>
+
+</FrameLayout>

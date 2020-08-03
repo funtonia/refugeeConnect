@@ -1,0 +1,44 @@
+{
+  "doctor":[
+    {
+    "name": "DoctorName 1",
+    "type": "DoctorType 1",
+    "gender": "DoctorGender 1",
+    "languages": "en,de",
+    "address": "Möhringer Landstraße 60 Stuttgart",
+    "tele": "DoctorTele 1",
+    "lang": "DoctorLang 1",
+    "id": 1
+    },
+    {
+    "name": "DoctorName 2",
+    "type": "DoctorType 2",
+    "gender": "DoctorGender 2",
+    "languages": "de,it",
+    "address": "Möhringer Landstraße 1 Stuttgart",
+    "tele": "DoctorTele 2",
+    "lang": "DoctorLang 2",
+    "id": 2
+    },
+    {
+      "name": "DoctorName 2.1",
+      "type": "DoctorType 2",
+      "gender": "DoctorGender 2",
+      "languages": "de",
+      "address": "Möhringer Landstraße 1 Stuttgart",
+      "tele": "DoctorTele 2",
+      "lang": "DoctorLang 2",
+      "id": 3
+    },
+    {
+      "name": "DoctorName 2.2",
+      "type": "DoctorType 2",
+      "gender": "DoctorGender 2",
+      "languages": "en,de",
+      "address": "Möhringer Landstraße 1 Stuttgart",
+      "tele": "DoctorTele 2",
+      "lang": "DoctorLang 2",
+      "id": 4
+    }
+  ]
+}

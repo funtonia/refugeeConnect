@@ -1,0 +1,26 @@
+{
+  "sportCourse":[
+    {
+      "type": "SportCourseType 1",
+      "group": "SportsCourseGroup 1",
+      "tele": "01239032980321",
+      "mail": "SportsCourseMail 1",
+      "address": "Universitaetsstrasse 86 Stuttgart",
+      "days": "Monday, Tuesday, Wednesday",
+      "times": "10h,12h,13h",
+      "lang": "SportCourseLang 1",
+      "id": 1
+    },
+    {
+      "type": "SportCourseType 2",
+      "group": "SportsCourseGroup 2",
+      "tele": "938920928310",
+      "mail": "SportsCourseMail 2",
+      "address": "Moehringer Landstrasse 29 Stuttgart",
+      "days": "Monday, Tuesday, Wednesday",
+      "times": "10h,12h,13h",
+      "lang": "SportCourseLang 2",
+      "id": 2
+    }
+  ]
+}

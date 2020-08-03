@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f2f3"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_margin="5dp"
+        >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sex"
+        android:layout_marginBottom="5dp"
+        style="@style/PopupHeaderStyle"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/male"
+            android:id="@+id/d_male_radio"
+            style="@style/PopupRadioAndCheckboxTextStyle"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/female"
+            android:id="@+id/d_female_radio"
+            style="@style/PopupRadioAndCheckboxTextStyle"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/malefemale"
+            android:id="@+id/d_mixed_radio"
+            android:checked="true"
+            style="@style/PopupRadioAndCheckboxTextStyle"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/language"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        style="@style/PopupHeaderStyle"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="50">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/en"
+                android:id="@+id/d_en_checkbox"
+                style="@style/PopupRadioAndCheckboxTextStyle"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fr"
+                android:id="@+id/d_fr_checkbox"
+                style="@style/PopupRadioAndCheckboxTextStyle"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/es"
+                android:id="@+id/d_es_checkbox"
+                style="@style/PopupRadioAndCheckboxTextStyle"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/it"
+                android:id="@+id/d_it_checkbox"
+                style="@style/PopupRadioAndCheckboxTextStyle"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ar"
+                android:id="@+id/d_ar_checkbox"
+                style="@style/PopupRadioAndCheckboxTextStyle"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fa"
+                android:id="@+id/d_fa_checkbox"
+                style="@style/PopupRadioAndCheckboxTextStyle"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dr"
+                android:id="@+id/d_dr_checkbox"
+                style="@style/PopupRadioAndCheckboxTextStyle"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sq"
+                android:id="@+id/d_sq_checkbox"
+                style="@style/PopupRadioAndCheckboxTextStyle"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tr"
+                android:id="@+id/d_tr_checkbox"
+                style="@style/PopupRadioAndCheckboxTextStyle" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="50">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sh"
+                android:id="@+id/d_sh_checkbox"
+                style="@style/PopupRadioAndCheckboxTextStyle"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hr"
+                android:id="@+id/d_hr_checkbox"
+                style="@style/PopupRadioAndCheckboxTextStyle"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sr"
+                android:id="@+id/d_sr_checkbox"
+                style="@style/PopupRadioAndCheckboxTextStyle"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bs"
+                android:id="@+id/d_bs_checkbox"
+                style="@style/PopupRadioAndCheckboxTextStyle"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mk"
+                android:id="@+id/d_mz_checkbox"
+                style="@style/PopupRadioAndCheckboxTextStyle"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/el"
+                android:id="@+id/d_el_checkbox"
+                style="@style/PopupRadioAndCheckboxTextStyle"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ro"
+                android:id="@+id/d_ro_checkbox"
+                style="@style/PopupRadioAndCheckboxTextStyle"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ru"
+                android:id="@+id/d_ru_checkbox"
+                style="@style/PopupRadioAndCheckboxTextStyle"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/apply"
+        android:id="@+id/d_apply_btn"
+        android:layout_gravity="end"
+        style="@style/PopupButtonStyle"/>
+
+    </LinearLayout>
+
+</ScrollView>

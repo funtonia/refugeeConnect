@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="?android:attr/expandableListPreferredChildPaddingLeft"
+    android:paddingEnd="?android:attr/listPreferredItemPaddingRight"
+    android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
+    android:paddingRight="?android:attr/listPreferredItemPaddingRight"
+    android:paddingTop="6dp"
+    android:paddingBottom="6dp"
+    android:background="#f0f3f2"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/relativeLayoutList"
+            android:layout_gravity="start">
+            <!-- GENERELL TEXTVIEWS -->
+            <!-- Name -->
+            <TextView
+                android:id="@+id/toptext"
+                style="@style/ListViewTopTextStyle"
+                />
+            <!-- Detail -->
+            <TextView
+                android:id="@+id/detailtext"
+                style="@style/ListViewDetailTextStyle"
+                />
+            <!-- Contact -->
+            <!-- Name -->
+            <TextView
+                android:id="@+id/toptextContact"
+                style="@style/ListViewTopTextStyle"
+                />
+            <!-- Detail -->
+            <TextView
+                android:id="@+id/detailtextContact"
+                style="@style/ListViewDetailTextStyle"
+                />
+            <!-- BonusCard -->
+            <!-- Name -->
+            <TextView
+                android:id="@+id/toptextBonusCard"
+                style="@style/ListViewTopTextStyle"
+                />
+            <!-- Detail -->
+            <TextView
+                android:id="@+id/detailtextBonusCard"
+                style="@style/ListViewDetailTextStyle"
+                />
+            <!-- Doctor -->
+            <!-- Name -->
+            <TextView
+                android:id="@+id/toptextDoctor"
+                style="@style/ListViewTopTextStyle"
+                />
+            <!-- SportCourse -->
+            <!-- Name -->
+            <TextView
+                android:id="@+id/toptextSportCourse"
+                style="@style/ListViewTopTextStyle"
+                />
+            <!-- Detail -->
+            <TextView
+                android:id="@+id/detailtextSportCourse"
+                style="@style/ListViewDetailTextStyle"
+                />
+
+            <!-- Languages for the doctors -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical"
+                android:paddingTop="10dp"
+                >
+                <ImageView
+                    android:id="@+id/lang_one"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="10dp"
+                    />
+                <ImageView
+                    android:id="@+id/lang_two"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    />
+                <ImageView
+                    android:id="@+id/lang_three"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    />
+            </LinearLayout>
+        </RelativeLayout>
+        <!-- Distance -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="end">
+            <TextView
+                android:id="@+id/distance"
+                style="@style/ListViewDistanceTextStyle"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical">
+                <ImageView
+                    android:paddingLeft="6dp"
+                    android:paddingStart="6dp"
+                    android:id="@+id/arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/arrow_right"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/exp_rl_inflate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="bottom"
+        android:layout_marginTop="45dp"
+        />
+</RelativeLayout>

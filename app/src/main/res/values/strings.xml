@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">RefugeeConnect</string>
+    <string name="refugeeconnect">Refugee Connect</string>
+    <string name="welcome">Welcome to Stuttgart</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="main_no_items">No items to be displayed for your search request.</string>
+    <string name="favorites_no_items">You do not have favorites yet.</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ListEmpty">No favorites to be displayed (yet).</string>
+
+    <!-- Überschriften -->
+    <string name="doctors">Doctors</string>
+    <string name="contacts">Contacts</string>
+    <string name="freetime">Free Time</string>
+    <string name="bonusfamilycard">Bonus-/Family-Card</string>
+    <string name="home">Home</string>
+    <string name="favorite">Favorites</string>
+    <string name="course">Sport Course</string>
+
+    <!-- Filter-Popup-Windows -->
+    <string name="filter">Filters</string>
+    <string name="sex" lang="de">Sex: </string>
+    <string name="language" lang="de">Language: </string>
+    <string name="female" >female</string>
+    <string name="male" >male</string>
+    <string name="mixed">mixed</string>
+    <string name="malefemale">male and female</string>
+    <string name="agegroup">Age Group: </string>
+    <string name="children">Children</string>
+    <string name="adolescents">Adolescents</string>
+    <string name="youngadults">Young Adults</string>
+    <string name="adults">Adults</string>
+    <string name="parents_with_child">Parents with Children</string>
+    <string name="apply">Apply</string>
+
+        <!-- Languages -->
+        <string name="sq">albanian</string>
+        <string name="ar">arabic</string>
+        <string name="it">italian</string>
+        <string name="dr">dari</string>
+        <string name="fa">farsi</string>
+        <string name="tr">turkish</string>
+        <string name="fr">french</string>
+        <string name="en">english</string>
+        <string name="sh">serbo-croatian</string>
+        <string name="el">greek</string>
+        <string name="hr">croatian</string>
+        <string name="sr">serbian</string>
+        <string name="ru">russian</string>
+        <string name="ro">romanian</string>
+        <string name="bs">bosnian</string>
+        <string name="es">spanish</string>
+        <string name="mk">macedonian</string>
+
+    <!-- Bonus-/Family-Card -->
+    <string name="familycard">Family-Card: </string>
+    <string name="teilhabe">Teilhabe: </string>
+    <string name="bonuscard">Bonus-Card: </string>
+    <string name="current_position">Current Position</string>
+
+    <!-- Bonus PopUp Info -->
+    <string name="capture_bc">BonusCard</string>
+    <string name="info_bc">The Bonus Card + Culture is a voluntary social benefit provided by State Capital Stuttgart. You can use it to obtain discounts and subsidies for a wide range of activities. It should enable individuals entitled to the card to participate in cultural, sporting and social life in the city despite their financial constraints.
+            </string>
+    <string name="capture_fc">FamilyCard</string>
+    <string name="info_fc">The Family Card credit balance (FC) and the participation benefit (TH) are both stored in so- called purses (an FC-purse and PB-purse) on the Family Card. The charged card is used as a form of payment for various recreational and educational activities.
+            </string>
+    <string name="more_info">More information:</string>
+
+    <string name="onRequest">on request</string>
+
+    <string name="close">Close</string>
+
+    <!-- Error-Fragment -->
+    <string name="errormessage">Sadly, there is no connection to the internet and no data are available.</string>
+    <string name="errorbutton">Try again</string>
+</resources>

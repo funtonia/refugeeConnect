@@ -1,0 +1,7 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <item name="ic_menu_home" type="drawable">@android:drawable/ic_menu_camera</item>
+    <item name="ic_menu_free_time" type="drawable">@android:drawable/ic_menu_gallery</item>
+    <item name="ic_menu_medical_scientist" type="drawable">@android:drawable/ic_menu_slideshow</item>
+    <item name="ic_menu_contacts" type="drawable">@android:drawable/ic_menu_manage</item>
+    <item name="ic_menu_favorite" type="drawable">@android:drawable/ic_menu_send</item>
+</resources>

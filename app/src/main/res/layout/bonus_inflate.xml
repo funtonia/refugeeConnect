@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="80dp"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="314dp"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/bonus_website"
+            android:clickable="true"
+            android:layout_marginTop="20dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            >
+            <ImageButton
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/bonus_favoriteBT"
+                android:src="@drawable/favorite_red"
+                android:background="@drawable/button_shape_favorite_grey"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:layout_width="156dp"
+            android:layout_height="55dp"
+            android:id="@+id/bonus_mailBT"
+            android:src="@drawable/message"
+            android:background="@drawable/button_shape_contact"
+            android:layout_margin="1dp"
+            android:visibility="visible"
+            />
+        <ImageButton
+            android:layout_width="156dp"
+            android:layout_height="55dp"
+            android:id="@+id/bonus_callBT"
+            android:src="@drawable/phone"
+            android:background="@drawable/button_shape_contact"
+            android:layout_margin="1dp"
+            android:visibility="visible"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

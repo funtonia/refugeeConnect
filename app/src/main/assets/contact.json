@@ -1,0 +1,25 @@
+{
+  "contact":[
+    {
+    "name": "ContactName 1",
+    "type": "ContactType 1",
+    "mail": "ContactMail 1",
+      "lang": "ContactLang 1",
+    "id": 1
+    },
+    {
+    "name": "ContactName 2",
+    "type": "ContactType 2",
+    "mail": "ContactMail 2",
+      "lang": "ContactLang 2",
+    "id": 2
+    },
+    {
+      "name": "TestName",
+      "type": "ContactType 2",
+      "mail": "ContactMail 2",
+      "lang": "ContactLang 2",
+      "id": 3
+    }
+  ]
+}

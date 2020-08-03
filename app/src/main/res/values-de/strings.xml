@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">RefugeeConnect</string>
+    <string name="refugeeconnect">Refugee Connect</string>
+    <string name="welcome">Willkommen in Stuttgart</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="main_no_items">Keine Ergebnisse für deine Suche.</string>
+    <string name="favorites_no_items">Du hast noch keine Elemente favorisiert.</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    
+    <string name="hello_blank_fragment">Hallo leeres Fragment</string>
+    <string name="ListEmpty">Noch keine Favoriten vorhanden.</string>
+
+    <!-- Überschriften -->
+    <string name="doctors">Ärzte</string>
+    <string name="contacts">Kontakte</string>
+    <string name="freetime">Freizeit</string>
+    <string name="bonusfamilycard">Bonus-/Family-Card</string>
+    <string name="home">Startseite</string>
+    <string name="favorite">Favoriten</string>
+    <string name="course">Sportkurse</string>
+
+    <!-- Filter-Popup-Windows -->
+    <string name="filter">Filter</string>
+    <string name="sex" lang="de">Geschlecht: </string>
+    <string name="language" lang="de">Sprache: </string>
+    <string name="female" >weiblich</string>
+    <string name="male" >männlich</string>
+    <string name="mixed">gemischt</string>
+    <string name="malefemale">männlich und weiblich</string>
+    <string name="agegroup">Altersgruppe: </string>
+    <string name="children">Kinder</string>
+    <string name="adolescents">Jugendliche</string>
+    <string name="youngadults">Junge Erwachsene</string>
+    <string name="adults">Erwachsene</string>
+    <string name="parents_with_child">Eltern mit Kind</string>
+    <string name="apply">Anwenden</string>
+
+        <!-- Languages -->
+        <string name="sq">albanisch</string>
+        <string name="ar">arabisch</string>
+        <string name="it">italienisch</string>
+        <string name="dr">dari</string>
+        <string name="fa">farsisch</string>
+        <string name="tr">türkisch</string>
+        <string name="fr">französisch</string>
+        <string name="en">englisch</string>
+        <string name="sh">serbokroatisch</string>
+        <string name="el">griechisch</string>
+        <string name="hr">kroatisch</string>
+        <string name="sr">serbisch</string>
+        <string name="ru">russisch</string>
+        <string name="ro">romänisch</string>
+        <string name="bs">bosnisch</string>
+        <string name="es">spanisch</string>
+        <string name="mk">mazedonisch</string>
+
+    <!-- Bonus-/Family-Card -->
+    <string name="familycard">Family-Card: </string>
+    <string name="teilhabe">Teilhabe: </string>
+    <string name="bonuscard">Bonus-Card: </string>
+    <string name="current_position">Aktuelle Position</string>
+
+    <!-- Bonus PopUp Info -->
+    <string name="capture_bc">BonusCard</string>
+    <string name="info_bc">Die Landeshauptstadt Stuttgart gewährt Ihnen mit der Bonuscard + Kultur eine freiwillige soziale Leistung. Mit dieser können Sie Ermäßigungen und Zuschüsse für vielfältige Angebote erhalten. Dem Berechtigtenkreis soll dadurch ermöglicht werden, trotz finanzieller Einschränkungen, am kulturellen, sportlichen und sozialen Leben in der Stadt teilzunehmen.</string>
+    <string name="capture_fc">FamilyCard</string>
+    <string name="info_fc">Das FamilienCard-Guthaben (FC) und der Teilhabebetrag (TH) werden beide in sogenannten Börsen (FC-Börse und TH-Börse) auf die FamilenCard aufgebucht. Die aufgeladene Karte dient als Zahlungsmittel für die verschiedenen Freizeit- und Bildungsangebote.</string>
+    <string name="more_info">More information:</string>
+
+    <string name="onRequest">auf Anfrage</string>
+    <string name="close">Schließen</string>
+
+    <!-- Error-Fragment -->
+    <string name="errormessage">Sie haben leider keine Internetverbindung und es sind noch keine Daten vorhanden.</string>
+    <string name="errorbutton">Erneut versuchen</string>
+
+
+</resources>

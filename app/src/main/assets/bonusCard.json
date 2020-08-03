@@ -1,0 +1,26 @@
+{
+  "bonusCard":[
+    {
+      "name": "BonusCardName 1",
+      "address": "Rathaus Stuttgart",
+      "tele": "38490248092384",
+      "mail": "BonusCardMail 1",
+      "website": "BonusCardWebsite 1",
+      "fc": true,
+      "th": true,
+      "lang": "BonusCardLang 1",
+      "id": 1
+    },
+    {
+      "name": "BonusCardName 2",
+      "address": "Schlossplatz Stuttgart",
+      "tele": "34892304283",
+      "mail": "BonusCardMail 2",
+      "website": "BonusCardWebsite 2",
+      "fc": false,
+      "th": true,
+      "lang": "BonusCardLang 2",
+      "id": 2
+    }
+  ]
+}

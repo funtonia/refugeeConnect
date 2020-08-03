@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="?android:attr/listPreferredItemPaddingLeft"
+    android:paddingEnd="?android:attr/listPreferredItemPaddingRight"
+    android:paddingLeft="?android:attr/listPreferredItemPaddingLeft"
+    android:paddingRight="?android:attr/listPreferredItemPaddingRight"
+    android:paddingTop="6dp"
+    android:paddingBottom="6dp"
+    android:background="#f0f3f2"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+    <!-- Name and detail -->
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/relativeLayoutList">
+
+            <!-- Name -->
+            <TextView
+                android:id="@+id/toptext"
+                style="@style/ListViewTopTextStyleBonus"
+                />
+
+            <!-- Detail -->
+            <TextView
+                android:id="@+id/detailtext"
+                style="@style/ListViewDetailTextStyle"
+                />
+        </RelativeLayout>
+
+
+        <!-- Distance -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="end">
+            <!-- Distance -->
+            <TextView
+                android:id="@+id/distance"
+                style="@style/ListViewDistanceTextStyle"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+
+                >
+                <ImageView
+                    android:id="@+id/bc"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_margin="1dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/fc"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_margin="1dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/th"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_margin="1dp"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/rl_inflate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="bottom"
+        android:layout_marginTop="60dp"
+        />
+
+</RelativeLayout>
